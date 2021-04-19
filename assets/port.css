@@ -377,7 +377,9 @@
         padding: 0 2rem 5rem 2rem !important;
     }
 
-    .wave {display: none;}
+    .wave {
+        display: none;
+    }
 
     .intro {
         align-items: flex-start;
@@ -405,6 +407,7 @@
     
     .about_me {
         flex-direction: column;
+        padding: 0 2rem 0 2rem;
     }
 
     .about_pic .nr {
