@@ -374,7 +374,7 @@
     .home_pic {
         justify-content: flex-end;
         align-items: flex-start;
-        padding: 0 1rem 10rem 1rem !important;
+        padding: .5rem 1rem 10rem 1rem !important;
     }
 
     .wave {
