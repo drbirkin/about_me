@@ -420,7 +420,7 @@
 
     .about_pic {
         padding-top: 1rem !important;
-        align-items: flex-start;
+        align-items: center;
     }
 
     .about_pic .sebi {
