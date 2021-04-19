@@ -1,0 +1,506 @@
+@media screen and (min-width: 2000px) {
+    .bg {
+        font-size: 1.6rem;
+        width: 4rem;
+        height: 4rem;
+        margin-right: 2rem !important;
+    }
+
+   .active {
+        font-size: 2rem;
+        width: 7rem;
+        height: 7rem;
+    }
+
+    .client {
+        width: 85%;
+    }
+
+    nav {
+        padding-left: 11rem !important;
+    }
+
+    .intro h3 {
+        font-size: 5rem;
+    }
+
+    .intro p, .intro_text i {
+        font-size: 3.5rem;
+    }
+
+    .intro span {
+        font-size: 4rem;
+    }
+
+    .discord {
+        margin-right: 3rem !important;
+    }
+
+    /**Slide 2*/
+
+    .about_pic .sebi {
+        width: 30rem;
+        margin-right: 2rem;
+    }
+
+    .field {
+        height: 35rem;
+        width: 45rem;
+    }
+
+    .field_text {
+        padding: 3rem 2rem;
+    }
+
+    .field_text span {
+        font-size: 15rem;
+    }
+
+    .field_text h3 {
+        font-size: 4rem;
+    }
+
+    .field_text p {
+        font-size: 2.1rem;
+    }
+
+    .birdscripts, .tweetninja {
+        height: 8rem;
+    }
+
+    /**slide 3*/
+
+    .services {
+        padding: 13rem 25rem 26rem 25rem;
+    }
+
+    .services .icon-box {
+        padding: 3.5rem;
+    }
+
+  /*   .services .icon-box .icon {
+        width: 150px;
+        height: 150px;
+    } */
+
+    .services .icon-box .icon svg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .services .icon-box .icon i {
+        font-size: 2rem;
+    }
+
+    .services .icon-box h5 {
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .services .icon-box p {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+    /**slide 4*/
+
+    .msg_cover {
+        width: 100rem;
+        height: 100%;
+        margin-bottom: 10rem;
+    }
+
+    .feedback {
+        height: 30rem;
+        width: 55rem;
+        padding: 4rem 8rem;
+    }
+
+    .feedback form {
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1999px) {
+
+    .bg {
+        font-size: 1.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        margin-right: 2rem !important;
+    }
+
+   .active {
+        font-size: 2rem;
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .client {
+        width: 85%;
+    }
+
+    nav {
+        padding-left: 5rem !important;
+    }
+
+    .intro h3 {
+        font-size: 4.5rem;
+    }
+
+    .intro p, .intro_text i {
+        font-size: 3rem;
+    }
+
+    .intro span {
+        font-size: 3.5rem;
+    }
+
+    .discord {
+        margin-right: 2rem !important;
+    }
+
+    /**Slide 2*/
+
+    .about_pic .sebi {
+        width: 25rem;
+        margin-right: 2rem;
+    }
+
+    .field {
+        height: 30rem;
+        width: 40rem;
+    }
+
+    .field_text {
+        padding: 2rem 2rem;
+    }
+
+    .field_text span {
+        font-size: 15rem;
+    }
+
+    .field_text h3 {
+        font-size: 3.5rem;
+    }
+
+    .field_text p {
+        font-size: 1.5rem;
+    }
+
+    .birdscripts, .tweetninja {
+        height: 8.5rem;
+    }
+
+    /**slide 3*/
+
+    .services {
+        padding: 5rem 15rem 15rem 15rem;
+    }
+
+    .services .icon-box {
+        padding: 2rem;
+    }
+
+    .services .icon-box .icon svg {
+        width: 100px;
+        height: 100px;
+    }
+
+    .services .icon-box .icon i {
+        font-size: 2rem;
+    }
+
+    .services .icon-box h5 {
+        margin-top: 1rem;
+        font-size: 1.6rem;
+    }
+
+    .services .icon-box p {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+    }
+
+    /**slide 4*/
+
+    .msg_cover {
+       width: 80rem;
+       height: 100%;
+       margin-bottom: 8rem;
+    }
+
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1799px) {
+
+    .bg {
+         font-size: 1.5rem;
+         width: 3.5rem;
+         height: 3.5rem;
+         margin-right: 2rem !important;
+    }
+    
+    .active {
+         font-size: 2rem;
+         width: 6rem;
+         height: 6rem;
+    }
+    
+    .client {
+         width: 85%;
+    }
+    
+    nav {
+         padding-left: 4rem !important;
+    }
+    
+    .intro h3 {
+         font-size: 4rem;
+    }
+    
+    .intro p, .intro_text i {
+         font-size: 2.5rem;
+    }
+    
+    .intro span {
+         font-size: 3rem;
+    }
+    
+    .discord {
+         margin-right: 2rem !important;
+    }
+    
+    /**Slide 2*/
+    
+    .about_pic .sebi {
+         width: 20rem;
+         margin-right: 2rem;
+    }
+    
+     .field {
+         height: 25rem;
+         width: 35rem;
+     }
+    
+     .field_text {
+         padding: 2rem 2rem;
+     }
+    
+     .field_text span {
+         font-size: 10rem;
+     }
+    
+     .field_text h3 {
+         font-size: 3rem;
+     }
+    
+     .field_text p {
+         font-size: 1.2rem;
+     }
+    
+     .birdscripts, .tweetninja {
+         height: 8.5rem;
+     }
+    
+     /**slide 3*/
+    
+     .services {
+         padding: 5rem 15rem 15rem 15rem;
+     }
+    
+     .services .icon-box {
+         padding: 1rem 2rem;
+     }
+    
+     .services .icon-box .icon svg {
+         width: 80px;
+         height: 80px;
+     }
+    
+     .services .icon-box .icon i {
+         font-size: 1.5rem;
+     }
+    
+     .services .icon-box h5 {
+         margin-top: 1rem;
+         font-size: 1.3rem;
+     }
+    
+     .services .icon-box p {
+         margin-top: .3rem;
+         font-size: 1rem;
+     }
+    
+     /**slide 4*/
+    
+     .msg_cover {
+        width: 80rem;
+        height: 100%;
+        margin-bottom: 8rem;
+     }
+
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+
+    .bg {
+         font-size: 1.5rem;
+         width: 4rem;
+         height: 4rem;
+         margin: 0 !important;
+    }
+    
+    .active {
+         font-size: 2rem;
+         width: 5rem;
+         height: 5rem;
+    }
+    
+    .client {
+         width: 100%;
+    }
+    
+    nav {
+        padding: 0 !important;
+        height: 10rem;
+    }
+
+    nav .navbar-nav {
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: row !important;
+    }
+
+    .home_pic {
+        justify-content: flex-end;
+        align-items: flex-start;
+        padding: 0 2rem 5rem 2rem !important;
+    }
+
+    .intro {
+        align-items: flex-end;
+        padding: 0 2rem 1.5rem 2rem !important;
+    }
+
+    .intro h3 {
+         font-size: 3rem;
+         font-weight: 500;
+    }
+    
+    .intro p, .intro_text i {
+         font-size: 1.8rem;
+    }
+    
+    .intro span {
+         font-size: 2.5rem;
+    }
+    
+    .discord {
+         margin-right: 1.5rem !important;
+    }
+    
+    /**Slide 2*/
+    
+    .about_me {
+        flex-direction: column;
+    }
+
+    .about_pic .nr {
+        z-index: -1;
+    }
+
+    .about_pic .wave1 {
+        z-index: -1;
+    }
+
+    .about_pic {
+        padding-top: 1rem !important;
+        align-items: flex-start;
+    }
+
+    .about_pic .sebi {
+         width: 10rem;
+    }
+    
+     .field {
+         height: 21rem;
+         width: 25rem;
+     }
+    
+     .field_text {
+         padding: 2rem 1rem;
+     }
+    
+     .field_text span {
+         font-size: 9rem;
+     }
+    
+     .field_text h3 {
+         top: 2px;
+         font-size: 2rem;
+     }
+    
+     .field_text p {
+         font-size: 1.1rem;
+     }
+    
+     .birdscripts, .tweetninja {
+         height: 6rem;
+     }
+    
+     /**slide 3*/
+    
+     .services {
+         padding: 2rem 1rem 12rem 1rem;
+     }
+
+     .services .inactive {
+         display: none !important;
+     }
+    
+     .services .icon-box {
+         width: 100%;
+         padding: .5rem 2rem 0 2rem;
+     }
+    
+     .services .icon-box .icon svg,  .services .icon-box .icon {
+         width: 70px;
+         height: 70px;
+     }
+    
+     .services .icon-box .icon i {
+         font-size: 1.5rem;
+     }
+    
+     .services .icon-box h5 {
+         margin-top: .1rem;
+         margin-bottom: 0;
+         font-size: 1.3rem;
+     }
+    
+     .services .icon-box p {
+         display: none;
+         margin-top: .3rem;
+         font-size: 1rem;
+     }
+    
+     /**slide 4*/
+    
+     .contact_me {
+        padding-top: 2rem;
+        justify-content: flex-start;
+     }
+
+     .feedback {
+         width: 25rem;
+         height: 31rem;
+         padding-bottom: 3rem;
+     }
+
+     .msg_cover {
+        width: 34rem;
+        height: 100%;
+        margin-bottom: 8rem;
+     }
+
+}
