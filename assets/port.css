@@ -380,8 +380,8 @@
     .wave {display: none;}
 
     .intro {
-        align-items: flex-end;
-        padding: 0 2rem 1.5rem 2rem !important;
+        align-items: flex-start;
+        padding: 1rem 2rem 1.5rem 2rem !important;
     }
 
     .intro h3 {
