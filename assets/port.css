@@ -377,13 +377,15 @@
         padding: 0 2rem 5rem 2rem !important;
     }
 
+    .wave {display: none;}
+
     .intro {
         align-items: flex-end;
         padding: 0 2rem 1.5rem 2rem !important;
     }
 
     .intro h3 {
-         font-size: 3rem;
+         font-size: 2.5rem;
          font-weight: 500;
     }
     
@@ -392,7 +394,7 @@
     }
     
     .intro span {
-         font-size: 2.5rem;
+         font-size: 2rem;
     }
     
     .discord {
