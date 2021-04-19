@@ -420,7 +420,7 @@
 
     .about_pic {
         padding-top: 1rem !important;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .about_pic .sebi {
@@ -456,7 +456,7 @@
      /**slide 3*/
     
      .services {
-         padding: 2rem 1rem 20rem 1rem;
+         padding: 2rem 1rem 23rem 1rem;
      }
 
      .services .inactive {
