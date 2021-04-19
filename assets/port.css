@@ -374,7 +374,7 @@
     .home_pic {
         justify-content: flex-end;
         align-items: flex-start;
-        padding: 0 1rem 2rem 1rem !important;
+        padding: 0 1rem 10rem 1rem !important;
     }
 
     .wave {
@@ -429,7 +429,7 @@
     
      .field {
          height: 21rem;
-         width: 25rem;
+         width: 21rem;
      }
     
      .field_text {
@@ -456,7 +456,7 @@
      /**slide 3*/
     
      .services {
-         padding: 2rem 1rem 12rem 1rem;
+         padding: 2rem 1rem 20rem 1rem;
      }
 
      .services .inactive {
