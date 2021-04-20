@@ -426,6 +426,10 @@
     .about_pic .sebi {
          width: 10rem;
     }
+
+    .portfolios {
+        margin-top: 1rem;
+    }
     
      .field {
          height: 21rem;
@@ -433,7 +437,7 @@
      }
     
      .field_text {
-         padding: 2rem 1rem 1rem 1rem;
+         padding: 2rem 1rem;
      }
     
      .field_text span {
