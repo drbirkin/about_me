@@ -493,7 +493,7 @@
     
      .contact_me {
     /*     padding-top: 2rem; */
-        justify-content: center;
+        justify-content: flex-start;
      }
 
      .feedback {
