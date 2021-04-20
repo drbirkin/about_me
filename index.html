@@ -16,10 +16,16 @@
     <link rel="stylesheet" href="assets\style.css">
     <link rel="stylesheet" href="assets\port.css">
     <script type='text/javascript' charset='utf-8'>
-      // Hides mobile browser's address bar when page is done loading.
-        window.addEventListener('load', function(e) {
-          setTimeout(function() { window.scrollTo(0, 1); }, 1);
-        }, false);
+      var elem = document.getElementById("slides");
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
     </script>
     <title>Sebastian Posch</title>
 </head>
@@ -28,14 +34,14 @@
     <nav class="navbar navbar-expand-lg fixed-bottom">
             <div class="navbar-nav">
                 <a class="nav-link mx-3 bg" href="#slide-1"><div class="circle"><i class="fas fa-home"></i></div><p class="menu m-0">Home</p><span class="sr-only">(current)</span></a>
-                <a class="nav-link mx-3 bg" href="#slide-2"><div class="circle"><i class="fas fa-user-tie"></i></div><p class="menu m-0">About</p></a>
+                <a class="nav-link mx-3 bg" href="#slide-2" onclick="openFullscreen();"><div class="circle"><i class="fas fa-user-tie"></i></div><p class="menu m-0">About</p></a>
                 <!-- <a class="nav-link mx-3 bg" href="#"><div class="circle"><i class="fas fa-theater-masks"></i></div><p class="menu m-0">Portfolio</p></a> -->
                 <a class="nav-link mx-3 bg" href="#slide-3"><div class="circle"><i class="fas fa-project-diagram"></i></div><p class="menu m-0">Services</p></a>
                 <a class="nav-link mx-3 bg" href="#slide-4"><div class="circle"><i class="fas fa-paper-plane"></i></div><p class="menu m-0">Contact</p></a>
             </div>
     </nav>
 
-    <main class="slides-container">
+    <main class="slides-container" id="slides">
         <div class="slide row p-0 m-0" id="slide-1">
             <div class="wave">
                 <img class="wavet" src="assets\image\wavet.svg" alt="wave">
