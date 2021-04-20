@@ -15,18 +15,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets\style.css">
     <link rel="stylesheet" href="assets\port.css">
-    <script type='text/javascript' charset='utf-8'>
-      var elem = document.getElementById("slides");
-      function openFullscreen() {
-        if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) { /* Safari */
-          elem.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) { /* IE11 */
-          elem.msRequestFullscreen();
-        }
-      }
-    </script>
     <title>Sebastian Posch</title>
 </head>
 <body>
@@ -227,6 +215,18 @@
     <script src="assets\fullpage.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> AOS.init();
+    </script>
+    <script type='text/javascript' charset='utf-8'>
+      var elem = document.getElementById("slides");
+      function openFullscreen() {
+        if (elem.requestFullscreen) {
+          elem.requestFullscreen();
+        } else if (elem.webkitRequestFullscreen) { /* Safari */
+          elem.webkitRequestFullscreen();
+        } else if (elem.msRequestFullscreen) { /* IE11 */
+          elem.msRequestFullscreen();
+        }
+      }
     </script>
 </body>
 </html>
