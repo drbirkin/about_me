@@ -515,7 +515,8 @@
      }
 
      .mobileform button {
-         width: 10rem;
+         padding: 1rem;
+         width: 15rem;
      }
 
 
