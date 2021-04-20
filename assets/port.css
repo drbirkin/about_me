@@ -433,7 +433,7 @@
      }
     
      .field_text {
-         padding: 2rem 1rem;
+         padding: 2rem 1rem 1rem 1rem;
      }
     
      .field_text span {
@@ -515,6 +515,7 @@
      }
 
      .mobileform button {
+         margin-top: 1rem;
          padding: 1rem;
          width: 15rem;
      }
