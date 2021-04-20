@@ -625,3 +625,7 @@ nav {
     margin-bottom: 7rem;
     z-index: 0;
 }
+
+.mobileform {
+    display: none;
+}

@@ -492,20 +492,30 @@
      /**slide 4*/
     
      .contact_me {
-        padding-top: 2rem;
-        justify-content: flex-start;
+    /*     padding-top: 2rem; */
+        justify-content: center;
      }
 
      .feedback {
          width: 20rem;
-         height: 27rem;
+         height: 27rem;s
          padding-bottom: 3rem;
+         display: none;
      }
 
      .msg_cover {
         width: 34rem;
         height: 100%;
-        margin-bottom: 8rem;
+    /*     margin-bottom: 8rem; */
+     }
+
+     .mobileform {
+         z-index: 1;
+         display: flex;
+     }
+
+     .mobileform button {
+         width: 10rem;
      }
 
 
