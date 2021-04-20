@@ -22,7 +22,7 @@
     <nav class="navbar navbar-expand-lg fixed-bottom">
             <div class="navbar-nav">
                 <a class="nav-link mx-3 bg" href="#slide-1"><div class="circle"><i class="fas fa-home"></i></div><p class="menu m-0">Home</p><span class="sr-only">(current)</span></a>
-                <a class="nav-link mx-3 bg" href="#slide-2" onclick="openFullscreen();"><div class="circle"><i class="fas fa-user-tie"></i></div><p class="menu m-0">About</p></a>
+                <a class="nav-link mx-3 bg" href="#slide-2"><div class="circle"><i class="fas fa-user-tie"></i></div><p class="menu m-0">About</p></a>
                 <!-- <a class="nav-link mx-3 bg" href="#"><div class="circle"><i class="fas fa-theater-masks"></i></div><p class="menu m-0">Portfolio</p></a> -->
                 <a class="nav-link mx-3 bg" href="#slide-3"><div class="circle"><i class="fas fa-project-diagram"></i></div><p class="menu m-0">Services</p></a>
                 <a class="nav-link mx-3 bg" href="#slide-4"><div class="circle"><i class="fas fa-paper-plane"></i></div><p class="menu m-0">Contact</p></a>
@@ -217,16 +217,39 @@
     <script> AOS.init();
     </script>
     <script type='text/javascript' charset='utf-8'>
-      var elem = document.getElementById("slides");
-      function openFullscreen() {
-        if (elem.requestFullscreen) {
-          elem.requestFullscreen();
-        } else if (elem.webkitRequestFullscreen) { /* Safari */
-          elem.webkitRequestFullscreen();
-        } else if (elem.msRequestFullscreen) { /* IE11 */
-          elem.msRequestFullscreen();
-        }
-      }
+        (function( win ){
+          var doc = win.document;
+          
+          // If there's a hash, or addEventListener is undefined, stop here
+          if( !location.hash && win.addEventListener ){
+            
+            //scroll to 1
+            window.scrollTo( 0, 1 );
+            var scrollTop = 1,
+              getScrollTop = function(){
+                return win.pageYOffset || doc.compatMode === "CSS1Compat" && doc.documentElement.scrollTop || doc.body.scrollTop || 0;
+              },
+            
+              //reset to 0 on bodyready, if needed
+              bodycheck = setInterval(function(){
+                if( doc.body ){
+                  clearInterval( bodycheck );
+                  scrollTop = getScrollTop();
+                  win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+                }	
+              }, 15 );
+            
+            win.addEventListener( "load", function(){
+              setTimeout(function(){
+                //at load, if user hasn't scrolled more than 20 or so...
+                if( getScrollTop() < 20 ){
+                  //reset to hide addr bar at onload
+                  win.scrollTo( 0, scrollTop === 1 ? 0 : 1 );
+                }
+              }, 0);
+            } );
+          }
+        })( this );
     </script>
 </body>
 </html>
