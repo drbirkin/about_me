@@ -428,11 +428,14 @@ nav {
 }
 
 .services .icon-box {
+    border-width: 0.15rem;
+    border-color: rgba(255, 255, 255, 0.294);
+    border-style: solid;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 1rem;
-    border-radius: .5rem;
+    border-radius: 1.5rem;
     transition: all ease-in-out 0.3s;
     background-color: hsla(0, 0%, 100%, 0.55);
     box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
@@ -440,14 +443,16 @@ nav {
 }
 
 .services .icon-box .icon {
-  margin: 0 auto;
-  width: 100px;
-  height: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: ease-in-out 0.3s;
-  position: relative;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 0.3s;
+    -webkit-filter: drop-shadow(0px 4px 6px rgba(29, 20, 20, 0.3));
+    filter: drop-shadow(0px 4px 6px rgba(153, 90, 90, 0.3));
+    position: relative;
 }
 
 .services .icon-box .icon i {
