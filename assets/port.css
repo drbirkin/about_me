@@ -513,10 +513,10 @@
      }
 
      .feedback {
-         width: 20rem;
-         height: 27rem;s
-         padding-bottom: 3rem;
-         display: none;
+        width: 25rem;
+        height: 30rem;
+        padding-bottom: 2rem;
+        margin-bottom: 6rem;
      }
 
      .msg_cover {
@@ -532,9 +532,12 @@
      }
 
      .mobileform button {
-         margin-top: 1rem;
+         font-size: 1.3rem;
+         margin-bottom: 1rem;
          padding: 1rem;
+         border-radius: 1rem;
          width: 15rem;
+         display: none;
      }
 
 
