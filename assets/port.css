@@ -515,6 +515,7 @@
      .msg_cover {
         width: 34rem;
         height: 100%;
+        display: none;
     /*     margin-bottom: 8rem; */
      }
 
