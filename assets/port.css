@@ -371,6 +371,10 @@
         flex-direction: row !important;
     }
 
+    nav .inactive {
+        display: none;
+    }
+
     .home_pic {
         justify-content: flex-end;
         align-items: flex-start;
@@ -459,7 +463,9 @@
      }
     
      /**slide 3*/
-    
+    #slide-3 {
+        display: none;
+    }
      .services {
          padding: 2rem 1rem 23rem 1rem;
          background-color: white;
