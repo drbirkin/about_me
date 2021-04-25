@@ -462,6 +462,7 @@
     
      .services {
          padding: 2rem 1rem 23rem 1rem;
+         background-color: white;
      }
 
      .services .inactive {
