@@ -1,0 +1,1 @@
+{"mappings":"AAAA,EAAE,QAAQ,IAAI,CAAC,WAAW;IACtB,EAAE,WAAW,KAAK,CAAC,MAAM,OAAO,CAAC;AACnC","sources":["assets/load.js"],"sourcesContent":["$(window).load(function() {\r\n    $(\"#loader\").delay(2000).fadeOut(\"slow\");  \r\n  });"],"names":[],"version":3,"file":"index.03d3a629.js.map","sourceRoot":"/__parcel_source_root/"}
