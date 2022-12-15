@@ -1,1 +1,0 @@
-{"mappings":"AAAAA,EAAEC,QAAQC,MAAK,WACXF,EAAE,WAAWG,MAAM,KAAMC,QAAQ,OACnC","sources":["assets/load.js"],"sourcesContent":["$(window).load(function() {\r\n    $(\"#loader\").delay(2000).fadeOut(\"slow\");  \r\n  });"],"names":["$","window","load","delay","fadeOut"],"version":3,"file":"index.5e1d70f4.js.map"}
